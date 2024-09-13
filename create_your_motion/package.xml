@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>create_your_motion</name>
+  <version>0.0.0</version>
+  <description>Utils for the ROSCon Sevilla workshop - Tutorial de TIAGo en ROS 2</description>
+
+  <maintainer email="noel.jimenez@pal-robotics.com">Noel Jimenez</maintainer>
+
+  <license>Apache License 2.0</license>
+
+  <exec_depend>launch_pal</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>play_motion2</exec_depend>
+  <exec_depend>play_motion2_msgs</exec_depend>
+  <exec_depend>play_motion_builder</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+  <exec_depend>rqt_joint_trajectory_controller</exec_depend>
+  <exec_depend>tiago_gazebo</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
